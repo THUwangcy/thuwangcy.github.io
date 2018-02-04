@@ -8,7 +8,8 @@ author:
   url: "https://thereviewindex.com"
 
 # Build settings
-baseurl: /monochrome # Change this to your relative path (ex: /blog/), or leave just a /
+url: "https://thuwangcy.github.io"
+baseurl: 
 markdown: kramdown
 source: .
 destination: ./_site
