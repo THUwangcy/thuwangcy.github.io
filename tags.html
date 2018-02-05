@@ -1,0 +1,66 @@
+---
+layout: default
+title: Tags | Chenyang Wang's Blog
+---
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+    {% assign ttags = post.tags | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if tags == "" %}
+            {% assign tags = tag | split:'|' %}
+        {% endif %}
+        {% unless tags contains tag %}
+            {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+<h2 style="margin-bottom: 10px; margin-top:-40px"> Tags </h2>
+{% for tag in tags %}
+    <a href="#{{ tag | slugify }}" style="font-weight:lighter; font-size:24px"> {{ tag }} </a>&emsp;
+{% endfor %}
+<hr color="#ddd" style="height:0.5px;" />
+{% comment %}
+=======================
+The purpose of this snippet is to list all your posts posted with a certain tag.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+    <h2 id="{{ tag | slugify }}" style="font-weight:normal; font-size:30px">{{ tag }}</h2>
+    <ul style="margin-left: 20px; margin-bottom:-15px">
+     {% for post in site.posts %}
+         {% if post.tags contains tag %}
+         <li style="list-style-type:none;">
+         <h4>
+         <a href="{{ post.url }}" style="font-weight:200">
+            <span>{{ post.title }}<span>&emsp;
+            <small style="font-weight:lighter; font-size:15px; color:#444">{{ post.date | date_to_string }}</small>
+         </a>
+         </h4>
+         </li>
+         {% endif %}
+     {% endfor %}
+    </ul>
+{% endfor %}

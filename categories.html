@@ -1,0 +1,66 @@
+---
+layout: default
+title: Categories | Chenyang Wang's Blog
+---
+
+{% comment %}
+=======================
+The following part extracts all the categories from your posts and sort categories, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+    {% assign ccat = post.category | join:'|' | append:'|' %}
+    {% assign rawcats = rawcats | append:ccat %}
+{% endfor %}
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated categories and invalid categories like blank category.
+=======================
+{% endcomment %}
+{% assign categories = "" %}
+{% for cat in rawcats %}
+    {% if cat != "" %}
+        {% if categories == "" %}
+            {% assign categories = cat | split:'|' %}
+        {% endif %}
+        {% unless categories contains cat %}
+            {% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the categories you have in your site.
+=======================
+{% endcomment %}
+<h2 style="margin-bottom: 10px; margin-top:-40px"> Categories </h2>
+{% for cat in categories %}
+    <a href="#{{ cat | slugify }}" style="font-weight:lighter; font-size:24px"> {{ cat }} </a>&emsp;
+{% endfor %}
+<hr color="#ddd" style="height:0.5px;" />
+{% comment %}
+=======================
+The purpose of this snippet is to list all your posts posted with a certain category.
+=======================
+{% endcomment %}
+{% for cat in categories %}
+    <h2 id="{{ cat | slugify }}" style="font-weight:normal; font-size:30px">{{ cat }}</h2>
+    <ul style="margin-left: 20px; margin-bottom:-15px">
+     {% for post in site.posts %}
+         {% if post.category contains cat %}
+         <li style="list-style-type:none;">
+         <h4>
+         <a href="{{ post.url }}" style="font-weight:200">
+            <span>{{ post.title }}<span>&emsp;
+            <small style="font-weight:lighter; font-size:15px; color:#444">{{ post.date | date_to_string }}</small>
+         </a>
+         </h4>
+         </li>
+         {% endif %}
+     {% endfor %}
+    </ul>
+{% endfor %}

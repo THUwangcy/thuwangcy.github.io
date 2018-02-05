@@ -3,11 +3,13 @@
     <span class="f-left">  
       <a href="{{ site.baseurl }}/">
         <h1>
-          <span>mono</span>chrome
+          <span>Chenyang Wang's </span> Blog
         </h1>
       </a>
     </span>
     <span id="nav-links" class="absolute right bottom">
+      <a href="{{ site.baseurl }}/">Home</a>
+
       <!-- Nav pages -->
 	    {% for page in site.pages %}
 	      {% if page.layout == "page" %}
@@ -17,6 +19,8 @@
       
       <!-- Nav links -->
 	    {% include link.html %}
+
+      <a href="/test.html">Test</a>
 
     </span>
   </div>

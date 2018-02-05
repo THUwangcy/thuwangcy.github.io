@@ -1,11 +1,11 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+title: Chenyang Wang's Blog
+description: "Try everything, write anything."
+url: "https://thuwangcy.github.io"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name: "Chenyang Wang"
+  email: "thuwangcy@gmail.com"
+  url: "https://thuwangcy.github.io"
 
 # Build settings
 url: "https://thuwangcy.github.io"

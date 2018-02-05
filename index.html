@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home | Chenyang Wang's Blog
 ---
 <!-- Posts -->
 <ul id="posts">
@@ -8,7 +9,9 @@ layout: default
 
 	  <li class="post">
 	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> </time>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> 
+        &emsp;浏览量: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span>次
+      </time>
 	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </li>
 
