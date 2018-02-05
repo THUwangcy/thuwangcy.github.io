@@ -52,9 +52,9 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
     <ul style="margin-left: 20px; margin-bottom:-15px">
      {% for post in site.posts %}
          {% if post.tags contains tag %}
-         <li style="list-style-type:none;">
+         <li style="list-style-type:none; margin-bottom: -15px">
          <h4>
-         <a href="{{ post.url }}" style="font-weight:200">
+         <a href="{{ post.url }}" style="font-weight:200; font-size:20px">
             <span>{{ post.title }}<span>&emsp;
             <small style="font-weight:lighter; font-size:15px; color:#444">{{ post.date | date_to_string }}</small>
          </a>
