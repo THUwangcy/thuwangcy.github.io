@@ -1,191 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<!-- Meta -->
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="generator" content="Jekyll">
-
-	<title>Home | Chenyang Wang's Blog</title>
-  <meta name="description" content="Try everything, write anything.">
-
-	<!-- CSS & fonts -->
-	<link rel="stylesheet" href="/css/main.css">
-
-	<!-- RSS -->
-	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-
-</head>
-
-
-<body>
-	<div id="wrap">
-	  	
-	  	<!-- Navigation -->
-	  	<nav id="nav">
-	<div id="nav-list">
-		<a href="/">Home</a>
-
-		<!-- Nav pages -->
-	  
-	    
-	  
-	    
-	      <a href="/about" title="About">About</a>
-	    
-	  
-	    
-	  
-	    
-	  
-	    
-	  
-	    
-	  
-	    
-	  
-	    
-	  
-	    
-	  
-    
-    <!-- Nav links -->
-	  <a href="\categories.html">Categories</a>
-<a href="\tags.html">Tags</a>
-<a href="https://github.com/THUwangcy">Github</a>
-
-
-	</div>
-  
-  <!-- Nav footer -->
-	
-	  <footer><span>@2018 - Chenyang Wang's Blog</span></footer>
-
-	
-
-</nav>
-
-    
-    <!-- Icon menu -->
-	  <a id="nav-menu">
-	  	<div id="menu"></div>
-	  </a>
-
-      <!-- Header -->
-      
-        <header id="header" class="parent justify-spaceBetween">
-  <div class="inner w100 relative">
-    <span class="f-left">  
-      <a href="/">
-        <h1>
-          <span>Chenyang Wang's </span> Blog
-        </h1>
-      </a>
-    </span>
-    <span id="nav-links" class="absolute right bottom">
-      <a href="/">Home</a>
-
-      <!-- Nav pages -->
-	    
-	      
-	    
-	      
-	        <a href="/about" title="About">About</a>
-	      
-	    
-	      
-	    
-	      
-	    
-	      
-	    
-	      
-	    
-	      
-	    
-	      
-	    
-	      
-	    
-      
-      <!-- Nav links -->
-	    <a href="\categories.html">Categories</a>
-<a href="\tags.html">Tags</a>
-<a href="https://github.com/THUwangcy">Github</a>
-
-
-    </span>
-  </div>
-</header>
-
-
-
-
-      
-
-    <!-- Main content -->
-	  <div id="container">
-		  
-		<main>
-
-			<!-- Posts -->
-<ul id="posts">
-
-	
-
-	  <li class="post">
-	  	<h2><a href="/%E8%AE%B0%E5%A4%A7%E4%B8%80%E4%B8%8B">这是一篇严肃的文——记大一下</a></h2>
-      <time datetime="2015-07-30T00:00:00+08:00" class="by-line"> <i>30 Jul 2015</i> 
-        &emsp;浏览量: 
-        <span id="/%E8%AE%B0%E5%A4%A7%E4%B8%80%E4%B8%8B" class="leancloud_visitors" data-flag-title="这是一篇严肃的文——记大一下">
-         <span class="leancloud-visitors-count"></span>
-        </span>
-    次
-      </time>
-	  	<p>大一下学期总结，感觉热情上有所消退，特别是社工上，还在慢慢找适合自己的“节奏”，发展了读书、骑行等兴趣，还组织了一次景德镇暑期实践。</p>
-	  </li>
-
-    
-
-	  <li class="post">
-	  	<h2><a href="/%E8%AE%B0%E5%A4%A7%E4%B8%80%E4%B8%8A">追忆“ 四水年华“ —— 记大一上</a></h2>
-      <time datetime="2015-02-09T00:00:00+08:00" class="by-line"> <i>09 Feb 2015</i> 
-        &emsp;浏览量: 
-        <span id="/%E8%AE%B0%E5%A4%A7%E4%B8%80%E4%B8%8A" class="leancloud_visitors" data-flag-title="追忆“ 四水年华“ —— 记大一上">
-         <span class="leancloud-visitors-count"></span>
-        </span>
-    次
-      </time>
-	  	<p>大一上学期总结，进清华的第一个学期，尝试了很多事情，想要改变一下自己。只是写法上看起来受高考作文影响很深...现在看起来有些奇怪了，但也不失为曾经一段鲜明的烙印。</p>
-	  </li>
-
-    
-
-</ul>
-
-
-	  </main>
-		
-		  <!-- Pagination links -->
-      
-
-	  </div>
-	    
-	    <!-- Footer -->
-	    <footer><span>@2018 - Chenyang Wang's Blog</span></footer>
-
-
-      <!-- Script -->
-      <script src="/js/main.js"></script>	
-
-
+{% if site.leancloud.enable %}
   <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("a7bTOQ5loeIl2rs7AINQHmIF-gzGzoHsz", "IgdEvbu6cnslDdC5MNpYK2ni");</script>
+  <script>AV.initialize("{{site.leancloud.app_id}}", "{{site.leancloud.app_key}}");</script>
   <script>
     function showHitCount(Counter) {
       /* 这是给一个页面中有多篇文章时所调用的，例如博客主界面或者存档界面。
@@ -289,18 +105,14 @@
 
     $(function() {
       var Counter = AV.Object.extend("Counter");
+      alert("123");
       if ($('.leancloud_visitors').length == 1) {
         // in post.html, so add 1 to hit counts
         addCount(Counter);
-      } else {
+      } else if ($('.post-link').length > 1){
         // in index.html, there are many 'leancloud_visitors' and 'post-link', so just show hit counts.
         showHitCount(Counter);
       }
     });
   </script>
-
-
-
-	</div>
-</body>
-</html>
+{% endif %}
