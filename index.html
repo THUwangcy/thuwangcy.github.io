@@ -9,13 +9,15 @@ title: Home | Chenyang Wang's Blog
 
 	  <li class="post">
 	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> 
-        &emsp;浏览量: {% if site.leancloud.enable %}
-        <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-         <span class="leancloud-visitors-count"></span>
-        </span>
-    {% endif %}次
-      </time>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> 
+          <i>{{ post.date | date_to_string }}</i> 
+          {% if site.leancloud.enable %}
+            &emsp;浏览量: 
+            <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+              <span class="leancloud-visitors-count"></span>
+            </span>次
+          {% endif %}
+        </time>
 	  	<p>{{ post.description | strip_html }}</p>
 	  </li>
 

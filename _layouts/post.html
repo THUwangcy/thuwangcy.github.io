@@ -4,12 +4,12 @@ layout: default
 <article id="post-page">
 	<h2>{%if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h2>		
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}
-        &emsp;浏览量: 
         {% if site.leancloud.enable %}
-       <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-        <span class="leancloud-visitors-count"></span>
-       </span>
-   {% endif %}次
+            &emsp;浏览量: 
+            <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+                <span class="leancloud-visitors-count"></span>
+            </span>次
+        {% endif %}
     </time>
 	<div class="content">
 
