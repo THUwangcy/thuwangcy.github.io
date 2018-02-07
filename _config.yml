@@ -38,3 +38,8 @@ version: "1.0.0"
 custom_header: false
 custom_nav_footer: false
 reverse: false
+
+leancloud:
+  enable: true
+  app_id: a7bTOQ5loeIl2rs7AINQHmIF-gzGzoHsz
+  app_key: IgdEvbu6cnslDdC5MNpYK2ni
