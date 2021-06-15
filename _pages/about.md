@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am now a 3rd year Ph.D. candidate in [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My supervisor is Associate Professor [Min Zhang](http://www.thuir.cn/group/~mzhang/). My major research interests are about sequential recommendation, temporal dynamics of user intention, and pre-training in information retrieval. 
+I am now a 3rd year Ph.D. candidate in [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My supervisor is Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My major research interests are about sequential recommendation, temporal dynamics of user intention, and pre-training in information retrieval. 
 
 Education
 ======
-* *Aug.2018 - present*	 Ph.D. candidate, Department of Computer Science and Technology, Tsinghua University, China.
-* *Aug.2014 - Jul.2018*    *major*, B.S. Degree, Department of Computer Science and Technology, Tsinghua University, China. 
-* *Aug.2015 - Jul.2018*    *minor*, B.A. Degree, Digital Media Art, Academy of Arts and Design, Tsinghua University, China. 
+* ***Aug.2018 - present***: Ph.D. candidate, Department of Computer Science and Technology, Tsinghua University, China.
+* ***Aug.2014 - Jul.2018***: *major*, B.S. Degree, Department of Computer Science and Technology, Tsinghua University, China. 
+* ***Aug.2015 - Jul.2018***: *minor*, B.A. Degree, Digital Media Art, Academy of Arts and Design, Tsinghua University, China. 
 
 Publications
 ======
@@ -30,18 +30,18 @@ Publications
 
 Projects
 ======
-* [ReChorus]([THUwangcy/ReChorus: "Chorus" of recommendation models: a light and flexible PyTorch framework for Top-K recommendation. (github.com)](https://github.com/THUwangcy/ReChorus)): a general PyTorch framework for fair comparisons between recommendation algorithms, especially for reasearch usage (**200+ stars**).
+* [ReChorus](https://github.com/THUwangcy/ReChorus): a general PyTorch framework for fair comparisons between recommendation algorithms, especially for reasearch usage (**200+ stars**).
 
 ![ReChorus Logo]({{site.url}}/images/logo.png)
 
 Honors and Awards
 ======
-* *Oct.2020*     Overall Excellence Scholarship, Tsinghua University.
-* *Oct.2019*     Overall Excellence Scholarship, Tsinghua University.
-* *Jul.2018*       Excellent Graduate, Department of Computer Science and Technology, Tsinghua University.
-* *Mar.2018*    Merit Student of Beijing.
-* *Oct.2017*     Overall Excellence Scholarship, Tsinghua University. 
-* *Oct.2016*     Community Contribution Scholarship, Tsinghua University.
+* *Oct.2020*: Overall Excellence Scholarship, Tsinghua University.
+* *Oct.2019*: verall Excellence Scholarship, Tsinghua University.
+* *Jul.2018*: Excellent Graduate, Department of Computer Science and Technology, Tsinghua University.
+* *Mar.2018*: Merit Student of Beijing.
+* *Oct.2017*: Overall Excellence Scholarship, Tsinghua University. 
+* *Oct.2016*: Community Contribution Scholarship, Tsinghua University.
 
 
 
