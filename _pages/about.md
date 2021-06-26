@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About Me (王晨阳)"
-excerpt: "About me"
+title: "Homepage"
+excerpt: "Homepage"
 author_profile: true
 redirect_from: 
   - /about/

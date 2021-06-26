@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Chenyang Wang"
 title_separator          : "-"
-name                     : &name "Chenyang Wang"
+name                     : &name "王晨阳"
 description              : &description "Ph.D. student at Tsinghua University"
 url                      : https://thuwangcy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
