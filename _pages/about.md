@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me (王晨阳)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -13,8 +13,8 @@ I am now a 3rd year Ph.D. candidate in [THUIR](http://www.thuir.cn/), Department
 Education
 ======
 * ***Aug.2018 - present***: Ph.D. candidate, Department of Computer Science and Technology, Tsinghua University, China.
-* ***Aug.2014 - Jul.2018***: *major*, B.S. Degree, Department of Computer Science and Technology, Tsinghua University, China. 
-* ***Aug.2015 - Jul.2018***: *minor*, B.A. Degree, Digital Media Art, Academy of Arts and Design, Tsinghua University, China. 
+* ***Aug.2015 - Jul.2018***: B.A. Degree, Digital Media Art, Academy of Arts and Design, Tsinghua University, China. 
+* ***Aug.2014 - Jul.2018***: B.E. Degree, Department of Computer Science and Technology, Tsinghua University, China. 
 
 Publications
 ======
