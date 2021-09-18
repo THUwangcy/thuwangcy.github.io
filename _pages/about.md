@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am now a 3rd year Ph.D. candidate in [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My supervisor is Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My major research interests are about sequential recommendation, temporal dynamics of user intention, and pre-training in information retrieval. 
+I am now a 4th year Ph.D. candidate in [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My supervisor is Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My major research interests are about sequential recommendation, temporal dynamics of user intention, and self-supervised learning in information retrieval. 
 
 Education
 ======
@@ -18,6 +18,7 @@ Education
 
 Publications
 ======
+* **Chenyang Wang**, Yi Ren, Weizhi Ma, Min Zhang, Yiqun Liu, and Shaoping Ma. ReChorus: A Comprehensive, Efficient, Flexible, and Lightweight Framework for Recommendation Algorithms. China Conference on Machine Learning. (**CCML 2021, Best Student Paper Award**)
 * Jiayu Li, Hongyu Lu, ***Chenyang Wang***, Weizhi Ma, Min Zhang, Xiangyu Zhao, Wei Qi, Yiqun Liu, and Shaoping Ma. A Difficulty-Aware Framework forChurn Prediction and Intervention in Games. The 27th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. (**KDD 2021**)
 * Chong Chen, Weizhi Ma, Min Zhang, Zhaowei Wang, Xiuqiang He, ***Chenyang Wang***, Yiqun Liu and Shaoping Ma. Graph Heterogeneous Multi-Relational Recommendation. The 45th AAAI Conference on Artificial Intelligence. **(AAAI 2021)** [Paper]([PRELIMINARY VERSION DO NOT CITE (aaai.org)](https://www.aaai.org/AAAI21Papers/AAAI-615.ChenC.pdf))
 * ***Chenyang Wang***, Weizhi Ma, Min Zhang, Chuancheng Lv, Fengyuan Wan, Huijie Lin, Taoran Tang, Yiqun Liu and Shaoping Ma. Temporal Cross-Effects in Knowledge Tracing. The 14th ACM International Conference on Web Search and Data Mining. (**WSDM 2021**) [Preprint Version](http://www.thuir.cn/group/~mzhang/publications/WSDM2021-WangChenyang.pdf)
@@ -36,6 +37,7 @@ Projects
 
 Honors and Awards
 ======
+* *Aug.2021*: Best Student Paper Award, CCML 2021.
 * *Dec.2020*: Overall Excellence Scholarship, Tsinghua University.
 * *Dec.2019*: Overall Excellence Scholarship, Tsinghua University.
 * *Jul.2018*: Excellent Graduate, Department of Computer Science and Technology, Tsinghua University.
