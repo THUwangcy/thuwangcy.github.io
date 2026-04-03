@@ -9,10 +9,8 @@ redirect_from:
 ---
 
 I received my Ph.D. from [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology, Tsinghua University, Beijing, China, under the supervision of Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My research interests include sequential recommendation, the temporal dynamics of user intent, and self-supervised learning for information retrieval.
-
-After graduation, I worked at Kuaishou on large-scale recommendation ranking and reranking.
-
-I am currently at ByteDance, where I lead an algorithm team focused on RL-based listwise reranking and agentic recommendation.
+After graduation, I joined Kuaishou working on large-scale recommendation ranking and reranking.
+Currently, I lead an algorithm team at ByteDance, focusing on RL-based listwise reranking and agentic recommendation.
 
 Education
 ======
