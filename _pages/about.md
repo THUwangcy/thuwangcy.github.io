@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 I received my Ph.D. from [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology, Tsinghua University, Beijing, China, under the supervision of Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My research interests include sequential recommendation, the temporal dynamics of user intent, and self-supervised learning for information retrieval.
-Previously, I worked at Kuaishou on large-scale recommendation ranking and reranking.
+
+After graduation, I worked at Kuaishou on large-scale recommendation ranking and reranking.
+
 I am currently at ByteDance, where I lead an algorithm team focused on RL-based listwise reranking and agentic recommendation.
 
 Education
@@ -41,7 +43,7 @@ Publications
 Projects
 ======
 
-* [ReChorus](https://github.com/THUwangcy/ReChorus): a general PyTorch framework for fair comparisons between recommendation algorithms, especially for reasearch usage (**300+ stars**).
+* [ReChorus](https://github.com/THUwangcy/ReChorus): a general PyTorch framework for fair comparisons between recommendation algorithms, especially for reasearch usage (**600+ stars**).
 
 ![ReChorus Logo]({{site.url}}/images/logo.png)
 
