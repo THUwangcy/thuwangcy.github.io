@@ -8,21 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-I am now a 4th year Ph.D. candidate in [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My supervisor is Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My major research interests are about sequential recommendation, temporal dynamics of user intention, and self-supervised learning in information retrieval. 
+I received my Ph.D. from [THUIR](http://www.thuir.cn/), Department of Computer Science and Technology, Tsinghua University, Beijing, China, under the supervision of Associate Prof. [Min Zhang](http://www.thuir.cn/group/~mzhang/). My research interests include sequential recommendation, the temporal dynamics of user intent, and self-supervised learning for information retrieval.
+Previously, I worked at Kuaishou on large-scale recommendation ranking and reranking.
+I am currently at ByteDance, where I lead an algorithm team focused on RL-based listwise reranking and agentic recommendation.
 
 Education
 ======
 
-* ***Aug.2018 - present***: Ph.D. candidate, Department of Computer Science and Technology, Tsinghua University, China.
-* ***Aug.2014 - Jul.2018***: B.E. Degree, Department of Computer Science and Technology, Tsinghua University, China. 
-* ***Aug.2015 - Jul.2018***: B.A. Degree (Dual), Digital Media Art, Academy of Arts and Design, Tsinghua University, China. 
+* ***Sep.2018 - Jul.2023***: Ph.D., Department of Computer Science and Technology, Tsinghua University, China.
+* ***Sep.2014 - Jul.2018***: B.E. Degree, Department of Computer Science and Technology, Tsinghua University, China.
+* ***Sep.2015 - Jul.2018***: B.A. Degree (Dual), Digital Media Art, Academy of Arts and Design, Tsinghua University, China.
 
 Publications
 ======
 
-* **Chenyang Wang**, Yuyan Qing, Weizhi Ma, Min Zhang, Chong Chen, Yiqun Liu, Shaoping Ma. Towards Representation Alignment and Uniformity in Collaborative Filtering. The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. (**KDD 2022**)
-* **Chenyang Wang**, Weizhi Ma, Chong Chen, Min Zhang, Yiqun Liu and Shaoping Ma. Sequential Recommendation with Multiple Contrast Signals. ACM Transactions on Information Systems. (**TOIS 2022**, Just Accepted) [Online Version](https://dl.acm.org/doi/10.1145/3522673)
-* Chong Chen, Weizhi Ma, Min Zhang, **Chenyang Wang**, Yiqun Liu, and Shaoping Ma. Revisiting Negative Sampling VS. Non-Sampling in Implicit Recommendation. ACM Transactions on Information Systems. (**TOIS 2022**, Just Accepted)
+* Xiao Lin, Xiaokai Chen, **Chenyang Wang**, Hantao Shu, Linfeng Song, Biao Li, and Peng Jiang. Discrete Conditional Diffusion for Reranking in Recommendation. The Web Conference 2024. (**WWW 2024**)
+* **Chenyang Wang**, Zhefan Wang, Yankai Liu, Yang Ge, Weizhi Ma, Min Zhang, Yiqun Liu, Junlan Feng, Chao Deng, and Shaoping Ma. Target Interest Distillation for Multi-Interest Recommendation. The 31st ACM International Conference on Information and Knowledge Management. (**CIKM 2022**)
+* **Chenyang Wang**, Yuanqing Yu, Weizhi Ma, Min Zhang, Chong Chen, Yiqun Liu, Shaoping Ma. Towards Representation Alignment and Uniformity in Collaborative Filtering. The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. (**KDD 2022**)
+* **Chenyang Wang**, Weizhi Ma, Chong Chen, Min Zhang, Yiqun Liu and Shaoping Ma. Sequential Recommendation with Multiple Contrast Signals. ACM Transactions on Information Systems. (**TOIS 2022**) [Online Version](https://dl.acm.org/doi/10.1145/3522673)
+* Chong Chen, Weizhi Ma, Min Zhang, **Chenyang Wang**, Yiqun Liu, and Shaoping Ma. Revisiting Negative Sampling VS. Non-Sampling in Implicit Recommendation. ACM Transactions on Information Systems. (**TOIS 2022**)
 * **Chenyang Wang**, Yi Ren, Weizhi Ma, Min Zhang, Yiqun Liu, and Shaoping Ma. ReChorus: A Comprehensive, Efficient, Flexible, and Lightweight Framework for Recommendation Algorithms. China Conference on Machine Learning. (**CCML 2021, Best Student Paper Award**) [Online Version](http://www.jos.org.cn/jos/article/pdf/6473)
 * Jiayu Li, Hongyu Lu, ***Chenyang Wang***, Weizhi Ma, Min Zhang, Xiangyu Zhao, Wei Qi, Yiqun Liu, and Shaoping Ma. A Difficulty-Aware Framework for Churn Prediction and Intervention in Games. The 27th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. (**KDD 2021**) [Online Version](https://dl.acm.org/doi/abs/10.1145/3447548.3467277)
 * Chong Chen, Weizhi Ma, Min Zhang, Zhaowei Wang, Xiuqiang He, ***Chenyang Wang***, Yiqun Liu and Shaoping Ma. Graph Heterogeneous Multi-Relational Recommendation. The 45th AAAI Conference on Artificial Intelligence. **(AAAI 2021)** [Online Version](https://www.aaai.org/AAAI21Papers/AAAI-615.ChenC.pdf)
@@ -44,6 +48,10 @@ Projects
 Honors and Awards
 ======
 
+* *Dec.2023*: Outstanding Doctoral Dissertation Nomination, Chinese Information Processing Society of China.
+* *Jun.2023*: Outstanding Graduate, Beijing.
+* *Jan.2023*: Huawei Genius Youth / Tencent Top Talents / Xiaohongshu RedStar / Kuaishou K-Star Campus Talent Programs.
+* *Sep.2022*: Overall Excellence Scholarship (Tsinghua Friend-Huawei Scholarship), Tsinghua University.
 * *Dec.2021*: Overall Excellence Scholarship, Tsinghua University.
 * *Aug.2021*: Best Student Paper Award, CCML 2021.
 * *Dec.2020*: Overall Excellence Scholarship, Tsinghua University.
